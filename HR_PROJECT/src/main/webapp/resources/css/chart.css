@@ -1,0 +1,370 @@
+@charset "UTF-8";
+/*
+   노토 산스 폰트 
+   fontawesome
+*/
+
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 100;
+  src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff2)
+      format('woff2'),
+    url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff)
+      format('woff'),
+    url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.otf)
+      format('opentype');
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #d9d9d9;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f2f2f2;
+  border-radius: 10px;
+}
+input:focus {
+  outline: 1px solid #415971;
+}
+
+textarea:focus {
+  outline: 1px solid #415971;
+}
+
+.department-container,
+.department-line-name {
+  list-style-type: none;
+  margin-left: 20px;
+}
+.department-container::marker {
+  display: none;
+}
+
+ul {
+  list-style-type: none;
+}
+.topHr {
+  border-bottom: 10px;
+  width: 95%;
+  text-align: center;
+  margin: auto;
+  width: 95%;
+}
+
+.head {
+  margin-left: 5%;
+  font-weight: bold;
+  text-shadow: 3px 3px 3px lightgray;
+}
+.side {
+  margin-left: 0px;
+}
+.depth1 {
+  /*   text-align:left; */
+  width: 120px;
+  height: 35px;
+  margin-top: 15px;
+  color: white;
+  background: #415971;
+  border: none;
+  font-weight: bold;
+  font-size: 17px;
+  cursor: pointer;
+  box-shadow: 2px 2px 2px 2px lightgray;
+}
+.depth2 {
+  text-align: left;
+  width: 100px;
+  height: 30px;
+  margin-left: 15px;
+  color: #395886;
+  background: white;
+  font-weight: bold;
+  font-size: 15px;
+  border: none;
+  text-shadow: 1px 1px 1px lightgray;
+  margin-top: 10px;
+  cursor: context-menu;
+}
+.depth1:hover {
+  color: lightblue;
+}
+
+/* 버튼을 안누른 기본 레이아웃은 숨겨짐 */
+.hidden {
+  display: none;
+}
+
+.userImage {
+  width: 80px;
+  height: 80px;
+}
+.b1 {
+  margin-left: 15px;
+  margin-bottom: -10px;
+  font-size: 18px;
+  text-shadow: 2px 2px 2px lightgray;
+}
+.b2 {
+  margin-left: 15px;
+  font-size: 16px;
+}
+.icons {
+  margin-top: -34px;
+  margin-left: 15px;
+  font-size: 12px;
+}
+.icons > button {
+  background: white;
+  border: 1px solid lightgray;
+}
+.main_container {
+  display: flex;
+}
+#showTeam1,
+#showTeam2,
+#showTeam3 {
+  margin-top: 20px;
+  text-align: center;
+}
+.teamNameButton {
+  background: white;
+  border: 1px solid lightgray;
+  margin-bottom: 10px;
+  color: purple;
+}
+
+/* ---------------- 모달 내부 스타일링 시작 ------------------*/
+#modalWindow {
+  position: fixed;
+  top: 45%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  background-color: #fcfcfc;
+  box-shadow: 2px 2px 2px 2px lightgray;
+  /*   text-shadow: 2px 2px 2px lightgray; */
+  width: 600px;
+  height: 390px;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  display: flex;
+  display: none;
+  border: 1px solid lightgray;
+}
+.modal_userImage {
+  width: 150px;
+  height: 150px;
+}
+.exitButton {
+  cursor: pointer;
+  margin-left: 650px;
+}
+.BtnContainer {
+  margin-left: 10px;
+}
+.personnelList > div {
+  margin-right: 63px;
+}
+.privacyList > div {
+  margin-right: 50px;
+}
+.personnelList {
+  display: flex;
+  margin-left: 10px;
+}
+.privacyList {
+  display: flex;
+  margin-left: 10px;
+}
+.showListButton {
+  display: flex;
+  margin-left: 10;
+  margin-bottom: 10px;
+}
+.mainContainer {
+  display: flex;
+  margin: 20px;
+  text-align: center;
+}
+.mainContainer > img {
+  width: 160px;
+  height: 180px;
+  margin-left: 20px;
+  border: 1px solid black;
+}
+.listContainer {
+  display: flex;
+}
+.employee-info-detail-wrap {
+  display: flex;
+  background-color: #f0f3fa;
+  width: 350px;
+  margin: 0px;
+  height: 290px;
+  margin-top: 16px;
+}
+
+.employee-info-detail-txt {
+  margin: 20px;
+  display: flex;
+  font-weight: 750;
+  color: #666666;
+}
+
+.employee-info-detail-txt2 {
+  margin: 20px;
+  display: flex;
+  font-weight: 600;
+}
+
+.employee-inner-button-wrap {
+  justify-content: center;
+}
+
+.employee-inner-button-wrap {
+  display: flex;
+  cursor: pointer;
+}
+
+.employee-inner-button-message {
+  margin-right: 20px;
+}
+
+.employee-div {
+  margin: 10px 0px;
+}
+.employee-div p {
+  margin: 0px;
+}
+.employee-info-profile-wrap {
+  width: 200px;
+}
+.employee-info-profile-img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 1px solid lightgray;
+}
+.employee-span-name {
+  font-size: 20px;
+  font-weight: 800;
+}
+.employee-span-status {
+  color: #666666;
+  font-weight: 700;
+}
+
+.employee-info-txt {
+  color: #666666;
+  font-size: 15px;
+  font-weight: 800;
+}
+.employee-info-table td {
+  padding: 5px 8px;
+}
+.closeBtn {
+  background-color: #fcfcfc;
+  border: none;
+  float: right;
+}
+
+/* ---------------- 모달 내부 스타일링 끝 ------------------*/
+
+.empTeam1 {
+  display: flex;
+}
+
+/* 2023. 11. 30. Employee Container Css 추가 */
+.list_area {
+  max-width: 1000px;
+  min-width: 1000px;
+}
+
+.employee-ul {
+  list-style-type: none;
+  margin-left: 60px;
+  margin-bottom: 20px;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.employee-li {
+  margin: 10px;
+  margin-right: 30px;
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid lightgray;
+  box-shadow: 2px 2px 2px 2px lightgray;
+}
+.employee-profile-wrap {
+  display: flex;
+  justify-content: space-between;
+  width: 350px;
+  margin: 8px;
+}
+.employee-profile-inner-img {
+  width: 115px;
+  height: 130px;
+}
+.employee-list-profile {
+  width: 115px;
+  height: 130px;
+  border: 1px solid lightgray;
+  border-radius: 5%;
+}
+.employee-info-wrap {
+  float: left;
+  position: relative;
+  width: 220px;
+  top: 7px;
+  margin-left: 10px;
+}
+.employee-name {
+  margin-bottom: 10px;
+  font-weight: 800;
+}
+.employee-wrap-btn {
+  display: flex;
+  margin-top: 10px;
+}
+.employee-inner-btn {
+  margin-right: 5px;
+  background-color: #f2f2f2;
+}
+.employee-inner-status-wrap {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+.employee-inner-status-wrap-modal {
+  display: flex;
+  align-items: center;
+}
+.employee-inner-status-icon {
+  border-radius: 50%;
+  width: 5px;
+  height: 5px;
+  margin-right: 5px;
+}
+.departmentName {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.employeePosition {
+  font-size: 14px;
+}
+
+.status-active {
+  border: 3px solid #64cd3c;
+}
+.status-inactive {
+  border: 3px solid red;
+}
