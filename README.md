@@ -6,16 +6,19 @@ HTML, CSS, JAVASCRIPT, JAVA, OARCLE 등 언어들을 활용하여 Spring Framewo
 
 <h3>프로젝트 기간</h3>
 2023.11 ~ 2023.12 (약 3주, 3인 작업)
-![image](https://github.com/pockta11/HR-Project/assets/141313695/23e500be-903a-4f6c-82e7-fd7868ae4bf6)
+![image](https://github.com/pockta11/HR-Project/assets/141313695/23be281c-b5ee-4d00-8fea-dc1538cacab2)
+
 
 <h3>개발 환경</h3>
-- OS : Windows 10, Windows 11
-- FW : Spring Framework
-- DB : Oracle18C
-- WAS : Apache Tomcat 9.0
-- Front-end : HTML5 / CSS / JavaScript / jQuery / AJAX / JSON
-- Back-end : JDK 11 / JSP / JSTL / Mybatis
-- Developer Tools : ERD_Cloud / Eclipse / Maven
-- GitGub
+- OS : Windows 10, Windows 11<br>
+- FW : Spring Framework<br>
+- DB : Oracle18C<br>
+- WAS : Apache Tomcat 9.0<br>
+- Front-end : HTML5 / CSS / JavaScript / jQuery / AJAX / JSON<br>
+- Back-end : JDK 11 / JSP / JSTL / Mybatis<br>
+- Developer Tools : ERD_Cloud / Eclipse / Maven<br>
+- GitGub<br>
+
+<h3>Teck Stack</h3>
 
 ![image](https://github.com/pockta11/HR-Project/assets/141313695/0389993c-2eaa-4dd2-8e09-94a685261393)
