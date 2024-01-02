@@ -23,7 +23,8 @@ HTML, CSS, JAVASCRIPT, JAVA, OARCLE 등 언어들을 활용하여 Spring Framewo
 ![image](https://github.com/pockta11/HR-Project/assets/141313695/0389993c-2eaa-4dd2-8e09-94a685261393)
 
 <h3>ERD</h3>
-![ERD](https://github.com/pockta11/HR-Project/assets/141313695/9e0d6bc6-7f6b-4914-b912-2024c36c05df)
+![ERD](https://github.com/pockta11/HR-Project/assets/141313695/4fd67822-c562-46bb-97a1-486d0be00634)
+
 
 
 
