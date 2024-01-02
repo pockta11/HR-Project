@@ -26,14 +26,13 @@ HTML, CSS, JAVASCRIPT, JAVA, OARCLE 등 언어들을 활용하여 Spring Framewo
 ![ERD](https://github.com/pockta11/HR-Project/assets/141313695/4fd67822-c562-46bb-97a1-486d0be00634)
 
 <h3>주요 기능</h3>
-<textarea>
-  - 사원 관리
-  - 근태 관리
-  - 사내 일정 관리
-  - 휴가 관리
-  - 전자 결재
-  - 공지사항
-</textarea>
+  - 사원 관리<br>
+  - 근태 관리<br>
+  - 사내 일정 관리<br>
+  - 휴가 관리<br>
+  - 전자 결재<br>
+  - 공지사항<br>
+
 
 
 
