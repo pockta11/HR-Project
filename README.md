@@ -1,5 +1,4 @@
 # HR-Project
-인사 관리 시스템 및 그룹 웨어 개발
 
 <h2>프로젝트 소개</h3>
 HTML, CSS, JAVASCRIPT, JAVA, OARCLE 등 언어들을 활용하여 Spring Framework 의 MVC 패턴 기법을 적용한 인사프로그램을 웹사이트로 구현 사용자 친화적인 UI 와 기본에 충실한 그룹웨어로 조직 구성원들이 의사 소통, 업무 전달, 정보 공유 및 의사 결정들의 업무 활동을 원활하게 수행하고 지원
@@ -16,9 +15,14 @@ HTML, CSS, JAVASCRIPT, JAVA, OARCLE 등 언어들을 활용하여 Spring Framewo
 - WAS : Apache Tomcat 9.0<br>
 - Front-end : HTML5 / CSS / JavaScript / jQuery / AJAX / JSON<br>
 - Back-end : JDK 11 / JSP / JSTL / Mybatis<br>
+- API : Full-Calendar API
 - Developer Tools : ERD_Cloud / Eclipse / Maven<br>
 - GitGub<br>
 
-<h3>Teck Stack</h3>
-
+<h3>유스케이스 다이어그램</h3>
 ![image](https://github.com/pockta11/HR-Project/assets/141313695/0389993c-2eaa-4dd2-8e09-94a685261393)
+
+<h3>ERD</h3>
+![image](https://github.com/pockta11/HR-Project/assets/141313695/a6fef3a1-3583-4e02-af71-2cd3b3641bde)
+
+
