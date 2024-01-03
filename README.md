@@ -1,7 +1,11 @@
 # HR-Project
 
 <h2>프로젝트 소개</h3>
-HTML, CSS, JAVASCRIPT, JAVA, OARCLE 등 언어들을 활용하여 Spring Framework 의 MVC 패턴 기법을 적용한 인사프로그램을 웹사이트로 구현 사용자 친화적인 UI 와 기본에 충실한 그룹웨어로 조직 구성원들이 의사 소통, 업무 전달, 정보 공유 및 의사 결정들의 업무 활동을 원활하게 수행하고 지원
+HTML, CSS, JAVASCRIPT, JAVA, OARCLE 등 언어들을 활용<br>
+Spring Framework 의 MVC 패턴 기법을 적용한 인사프로그램을 웹사이트로 구현<br>
+사용자 친화적인 UI 와 기본에 충실한 그룹웨어<br>
+조직 구성원들의 의사소통, 업무 전달, 정보 공유 및 의사 결정에 도움을 주기 위함<br>
+
 
 <h3>프로젝트 기간</h3>
 2023.11 ~ 2023.12 (약 3주, 3인 작업)<br>
